@@ -1,13 +1,16 @@
 
 body {
     margin: 0;
-
+    background-color: black;
 
 }
 
 .index-header {
     position: sticky;
-    height: 15vh;
+    top: 0;
+    z-index: 100;
+    left: 0;
+    height: 13vh;
     background-color: #741414;
     color: #f4eded;
    border-bottom:#dcc586fc 3px solid;
@@ -49,7 +52,7 @@ opacity: 80%;
     justify-content: end;
     align-items: flex-end;align-self: center;
     list-style: none;
-    margin-top: -165px;
+    margin-top: -185px;
     margin-right: 40px;
     gap: 15px;
 
@@ -65,20 +68,148 @@ text-decoration: none;
 /* SEKSJON 1 AV KODEN*/
 
 .section-one{
-    position: absolute;
+position: absolute;
 height: 80vh;
 width: 1440px;
 background-color: rgb(110, 100, 100);
-background-image: url(Images/Header-bilde.jpeg);
+background-image: url(Images/wynntest2.jpeg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
 
 }
 
-#header-txt {
-position: relative;
-display: flex;
+#header-txt1 {
+  position: absolute;
+  width: 300px;
 justify-content: start;
 align-items: center;
+margin-top: 200px;
+font-family: didot;
+margin-left: 900px;
+font-weight: 800;
+
+color: white;
+font-size: 20px;
 }
+#header-txt2 {
+  position: absolute;
+  width: 400px;
+justify-content: start;
+align-items: center;
+margin-top: 240px;
+font-family: didot  ;
+font-size: 23px;
+margin-left: 880px;
+font-weight: 880;
+color: white;
+
+
+}
+#header-txt3 {
+  position: absolute;
+  width: 300px;
+margin-top: 228px;
+font-family: luminari ;
+margin-left: 1005px;
+color: rgb(195, 60, 60);
+font-size: 28px;
+}
+#book-btn{
+    position: relative;
+    margin-bottom: 150px;
+    margin-left: 370px;
+justify-content: center;
+align-items: center;  
+
+}
+
+#book-btn{
+position: absolute;
+top: 350px;
+right: 350px;
+    background-color: #912c2c;
+color: #fafafa;
+    border: solid 1px rgb(56, 27, 27);
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 18px;
+        font-family: didot;
+    font-weight: 100;
+        cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/*SEKSJON TO AV KODEN*/
+.section-two {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: start;
+    height: 200vh;
+    z-index: 9999;
+    margin-top: 500px;
+  }
+  
+    #two-pic{
+    border-style: none;
+    border-width: 0px;
+    border-bottom: #dcc586fc 3px solid;
+    border-radius: 10px;
+  }
+
+  #sectionTwo-pic {
+    margin-top: 180px;
+
+    height: inherit;
+    width: inherit;
+    z-index: 1;
+      object-fit:contain;
+      border-radius: 10px;
+
+    
+  }
+  #twotxt-header{
+
+    font-family: fantasy;
+    font-size: large;
+    z-index: 2;
+    color: rgb(255, 255, 255);
+  }
+
+  #two-txt {
+    display: flex;
+    width: 300px;
+
+    color: rgb(255, 255, 255);
+    font-size: large;
+  }
+
+  .txt-container{
+    display: flex;
+position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(61, 20, 20);
+    width: 600px;
+    height: 800px;
+    margin-top: 180px;
+    margin-right: 600px;
+    color:  rgb(61, 20, 20);
+    border-style: solid;
+   padding: 10px;
+   border-radius: 2px;
+
+  }
+
+
+  hr{
+    position: absolute;
+    border-style: solid;
+    border-width: 200px;
+    color: white;
+    border-bottom: rgb(24, 17, 17);
+    
+  }
