@@ -1,0 +1,88 @@
+body{
+    display: flex;
+    background-color: grey;
+    background-image: url(giphy.gif);
+    background-size: cover;
+    background-attachment: fixed;
+    }
+    .helicopter{
+        position: relative;
+        position: left;
+        float: left;
+    
+    }
+        h1 {
+            color: rgba(186, 186, 127, 0.463);
+            width: 300;
+            height: 60;
+            display: contents;
+            justify-content: center;
+            align-items: center;
+            transition-property: all;
+            transition-duration: 2s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 0ms;
+            position: absolute;
+            top:60%;
+            right:30%;
+            left: 30%;
+            }
+            
+           /*spa og massage*/
+                p1 {
+                color: white;
+                position: relative;
+                float: right;
+                margin-left:65%;
+                width: 60%;
+                bottom: 85%;
+            }
+            h2{
+                color: white;
+                position: relative;
+                float: right;
+                margin-left: 70%;
+                width: 60%;
+                bottom: 85%;
+            
+            }
+            .helicopter {
+                position: absolute;
+                float: left;
+                top: 60%;
+                margin-right: 70%;
+                width: 55%;
+                bottom: 85%;
+            }
+            h3, p {
+                position: relative;
+                float: right;
+                margin-left: 70%;
+                width: 65%;
+                bottom: 85%;
+            }
+            p{
+                color: white;
+            }
+    
+            h2,h3 {
+                color:white;
+            }
+    
+            vann {
+            position: relative;
+            float: left;
+            bottom: 40%;
+            width: 65%;
+            margin-left: 70%;
+    
+            }
+            .container { 
+                width: 300px;
+                height: 200px;
+                margin: 100px auto;
+                position: relative;
+                left: 30px;
+                top: 20px;
+    
+            } 
