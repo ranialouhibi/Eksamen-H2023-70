@@ -1,60 +1,58 @@
 
 body {
     margin: 0;
-    background-color: black;
+    background-color: rgba(122, 71, 9, 0.392)
 
 }
-
+  
 .index-header {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    left: 0;
-    height: 13vh;
-    background-color: #741414;
-    color: #f4eded;
-   border-bottom:#dcc586fc 3px solid;
+  position: fixed;
+  z-index: 999;
+  width: 1500px;
+  height: 9.3vh;
+  background-color: #3c0c0c96;
+  color: #f4eded;
+ border-bottom:#461f1fc9 1px solid;
 }
 
 .header-content {
-height: 18vh;
+height: 13vh;
 display: flex;
-flex-direction: column;
-justify-content: space-around;
+flex-direction: column-reverse;
+justify-content: space-between;
 align-items:end;
 }
 
 
 #title-txt{
-align-self: start;
-justify-content: end;
-margin-left: 30px;
-margin-top: 120px;
-font-family: Beth Ellen;
+  position: absolute;
+margin-right:1190px;
+margin-bottom: -14px;
+font-family: the seasons light ;
 font-size:x-large;
 font-weight:100;
 }
-
+/*
 #sub-txt{
-justify-content: end;
-align-self: flex-start;
-margin-bottom: 150px;
-margin-top: -68px;
-margin-left: 280px;
+position: absolute;
+margin-right: 80%;
 font-style: italic;
 font-size: small;
 font-family:'Courier New', Courier, monospace;
-opacity: 80%;
-}
+opacity: 80%
+}*/
 
 .site-nav ul {
-    display: flex;
-    justify-content: end;
-    align-items: flex-end;align-self: center;
-    list-style: none;
-    margin-top: -185px;
-    margin-right: 40px;
-    gap: 15px;
+  display: flex;
+   margin-top: -47px;
+  flex-direction: row;
+  justify-content: end;
+  align-items: start;
+  margin-right: 100px;
+ 
+position: relative;
+  list-style: none;
+  gap: 30px;
 
 
 }
@@ -63,6 +61,13 @@ opacity: 80%;
 color: #e5e2e2;
 text-transform: uppercase;
 text-decoration: none;
+}
+
+.site-nav a:hover {
+  color: #f4eded;
+  font-size: large;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
 }
 
 /* SEKSJON 1 AV KODEN*/
@@ -110,106 +115,196 @@ color: white;
   position: absolute;
   width: 300px;
 margin-top: 228px;
-font-family: luminari ;
+font-family: the seasons light ;
 margin-left: 1005px;
 color: rgb(195, 60, 60);
 font-size: 28px;
-}
-#book-btn{
-    position: relative;
-    margin-bottom: 150px;
-    margin-left: 370px;
-justify-content: center;
-align-items: center;  
 
 }
+#header-txt3:hover{
+  text-shadow: 2px 2px 20px #fff9f9;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+
+}
+
 
 #book-btn{
 position: absolute;
 top: 350px;
 right: 350px;
-    background-color: #912c2c;
-color: #fafafa;
-    border: solid 1px rgb(56, 27, 27);
-    border-radius: 8px;
-    padding: 8px;
-    font-size: 18px;
-        font-family: didot;
-    font-weight: 100;
-        cursor: pointer;
+border: solid 1px rgb(255, 248, 248);
+border-radius: 5px;
+background: none;
+padding: 5px;
+font-size: 18px;
+font-family: didot;
+font-weight: 100;
+color: white;
+cursor: pointer;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#book-btn:hover{
+  background-color: rgba(255, 255, 255, 0.405);
+  color: rgb(255, 255, 255);
+  border: solid 1px rgb(255, 248, 248);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition-timing-function: ease-in;
+  transition-duration: 200ms;
 }
 
 
 /*SEKSJON TO AV KODEN*/
+
 .section-two {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: start;
-    height: 200vh;
+    height: 142vh;
     z-index: 9999;
     margin-top: 500px;
   }
   
     #two-pic{
-    border-style: none;
-    border-width: 0px;
-    border-bottom: #dcc586fc 3px solid;
-    border-radius: 10px;
+  border-style: none;
+  border-width: 0px;
+  border-bottom: #dcc586fc 3px solid;
+  border-radius: 10px;
   }
 
   #sectionTwo-pic {
-    margin-top: 180px;
+  margin-top: 145px;
+  height: 500px;
+  width: inherit;
+  z-index: -1;
+  object-fit:contain;
+  border-radius: 10px;
 
-    height: inherit;
-    width: inherit;
-    z-index: 1;
-      object-fit:contain;
-      border-radius: 10px;
-
-    
+  }
+  #sectionTwo-pic2{
+position: absolute;
+margin-top: 145px;
+opacity: 0;
+}
+  #sectionTwo-pic2:hover{
+ opacity: 1;
+ transition-duration: 150ms;
+ transform-style: preserve-3d;
+ transform-box: fill-box;
   }
   #twotxt-header{
-
-    font-family: fantasy;
-    font-size: large;
-    z-index: 2;
-    color: rgb(255, 255, 255);
+  position: absolute;
+  margin-top: -350px;
+  margin-left: 150px;
+  font-family: didot;
+  font-size: 1.5rem;
+  z-index: 2;
+  color: rgb(255, 250, 250);
   }
 
   #two-txt {
-    display: flex;
-    width: 300px;
-
-    color: rgb(255, 255, 255);
-    font-size: large;
+  position: absolute;
+  margin-left: 150px;
+  margin-top: -200px;
+  width: 400px;
+  color: rgb(255, 255, 255);
+  font-size: large;
+  letter-spacing: .15rem;
+  word-spacing: .3rem;
   }
-
+ 
   .txt-container{
-    display: flex;
-position: absolute;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(61, 20, 20);
-    width: 600px;
-    height: 800px;
-    margin-top: 180px;
-    margin-right: 600px;
-    color:  rgb(61, 20, 20);
-    border-style: solid;
-   padding: 10px;
-   border-radius: 2px;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(64, 8, 8, 0.884);
+  width: 670px;
+  height: 770px;
+  margin-top: 200px;
+  margin-right: 600px;
+  border-style: none;
+  padding: 10px;
+  border-radius: 5px;
 
   }
 
 
-  hr{
+  #hr1{
     position: absolute;
-    border-style: solid;
-    border-width: 200px;
-    color: white;
+    margin-top: -250px;
+    margin-left: 80px;
+    border-style: solid ;
+    border-top: rgb(240, 79, 79);
+    border-width: 400px;
+    height: 1px;
+    color: rgba(255, 255, 255, 0.687);
     border-bottom: rgb(24, 17, 17);
     
   }
+  #hr2{
+    position: absolute;
+    margin-top: 235px;
+    margin-right: 1190px;
+    border-top: rgb(0, 0, 0);
+    border-width: 32px;
+    height: 1px;
+    color: rgb(255, 255, 255);
+    border-bottom: rgb(255, 255, 255);
+    z-index: 2;
+  
+  }
+
+  #p-date{
+    margin-bottom: 430px;
+    margin-left: 10px;
+    color: white;
+    word-spacing: 80px;
+  }
+
+  /*SEKSJON TRE AV KODEN*/
+
+  .section-three{
+display: flex; 
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+  width: 1450px;
+  height: 100vh;
+  background-color: rgb(76, 18, 18) ;
+  
+  }
+
+  #foodpic{
+    margin-left: 0px;
+    box-shadow: 1px 1px 15px #040000;
+    margin-top: 30px;
+    
+  }
+  #roompic{
+    margin-right: 100px;
+    box-shadow: 1px 1px 15px #040000;
+    margin-top: 30px;
+  }
+  #casinopic{
+    margin-left: 100px;
+    margin-top: 30px;
+    box-shadow: 1px 1px 15px #040000;
+  }
+  #txt-three{
+color: white;
+  font-size: xx-large;
+  margin-left: 140px;
+  margin-top: -775px;
+  text-decoration:underline;
+  font-family: the seasons light;
+  font-size: 55px;
+  }
+
+
+
+
+
