@@ -1,10 +1,10 @@
 body {
     background-attachment: fixed;
-    background-color: rgb(159, 109, 109)
+    background-color: rgb(189, 189, 173)
 };
     
         h1 {
-            color: rgb(227, 192, 192);
+            color: palevioletred;
             width: 300;
             height: 60;
             display: contents;
@@ -17,6 +17,7 @@ body {
             right:30%;
             left: 30%;
             }
+            
             /*overskrifter*/
 
              h2, h3, h4 {
@@ -39,56 +40,80 @@ body {
                 margin-top: initial; }
 
 
+                    
+
              /*bildene*/
 
         
 
             .helicopter {
                 position: relative;
-                float: left;
-                left: 30px;
-                margin-left: 650px;
+                left: 470px;
                 width: 55%;
-                bottom: 310px;
-                display: flex;
+                bottom: 290px;
+                margin-top: initial;
+                display: inline;
                 
+                
+            }
+
+            .helicopter:hover {
+                color: aliceblue;
+                transform: rotate(720deg);
+                box-shadow: inset 0 0 0 5px rgb(214, 156, 156);
+                width: 300px;
+                height: 50px;
+
             }
             
             .vann {
               position: relative;
-              float: right;
-              top: 87%;
+              left: 50px;
               margin-right: 750px;
-              bottom: 280px;
-              margin-top: initial;
+              bottom: 520px;
             }
 
+    
             /*tekst boksene*/
 
             .box { 
-                width: 40%;
+                width: 30%;
                 height: 240px;
                 margin: 100px auto;
                 position: relative;
                 right: 280px;
                 margin-left: 750px;
-                bottom: 360px;
-                background-color: white;
-                display: flex;
-                
-            
-    
+                bottom: 340px;
+                background-color: rgb(152, 139, 139);
+                display: flex; 
+               transition-property: all;
+               transition-duration: 2s;
+               transition-timing-function: ease-in-out;
+               transition-delay: 0s;
             } 
+            .box:hover {
+                color: aliceblue;
+                transform: rotate(720deg);
+                box-shadow: inset 0 0 0 5px grey;
+                width: 300px;
+                height: 50px;
+
+            }
+
+
+
             .box1 {
-                width: 50%;
+                width: 29%;
                 height: 300px;
                 position: relative;
-                margin-left: 85px;
-                right: 990px;
-                top: 95%;
-                bottom: 110px;
-                background-color: white;
+                margin-left: 400px;
+                right: 850px;
+                top: 99%;
+                bottom: 310px;
+                background-color: rgb(152, 139, 139);
+                
             }
+
         
             
             .box2 {
@@ -97,9 +122,10 @@ body {
                 margin-left: 100px auto;
                 position: relative;
                 left: 99%;
-                bottom: 270px;
-                background-color: white;
+                bottom: 210px;
+                background-color: rgb(152, 139, 139);
             }
+            
 
           /*siste tekstboks skriften (ikke rør)*/
             .h4 {
@@ -113,5 +139,7 @@ body {
             }
 
             /*animasjoner:*/
+            
+
             
             
