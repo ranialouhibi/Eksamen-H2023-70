@@ -1,7 +1,7 @@
 body {
     background-attachment: fixed;
-    background-color: rgb(176, 43, 43);
-}
+    background-color: rgb(159, 109, 109)
+};
     
         h1 {
             color: rgb(227, 192, 192);
@@ -38,52 +38,55 @@ body {
                 width: 80%;
                 margin-top: initial; }
 
+
              /*bildene*/
 
+        
+
             .helicopter {
-                position: absolute;
-                float: right;
-                top: 7%;
-                margin-left: 30%;
+                position: relative;
+                float: left;
+                left: 30px;
+                margin-left: 650px;
                 width: 55%;
-                bottom: 185%;
+                bottom: 310px;
+                display: flex;
+                
             }
             
             .vann {
               position: relative;
-              float: left;
+              float: right;
               top: 87%;
-              margin-left: 750px;
-              bottom: 670px;
+              margin-right: 750px;
+              bottom: 280px;
               margin-top: initial;
             }
 
             /*tekst boksene*/
 
             .box { 
-                width: 25%;
-                height: 270px;
+                width: 40%;
+                height: 240px;
                 margin: 100px auto;
                 position: relative;
-                right: 470px;
-                bottom: 75px;
+                right: 280px;
+                margin-left: 750px;
+                bottom: 360px;
                 background-color: white;
                 display: flex;
                 
-
-                .box:hover{
-                    color: aqua;
-                }
             
     
             } 
             .box1 {
-                width: 30%;
+                width: 50%;
                 height: 300px;
                 position: relative;
-                left: 60px;
+                margin-left: 85px;
+                right: 990px;
                 top: 95%;
-                bottom: 75px;
+                bottom: 110px;
                 background-color: white;
             }
         
@@ -93,8 +96,8 @@ body {
                 height: 280px;
                 margin-left: 100px auto;
                 position: relative;
-                left: 2%;
-                bottom: 0%;
+                left: 99%;
+                bottom: 270px;
                 background-color: white;
             }
 
