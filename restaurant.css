@@ -1,4 +1,4 @@
-html{
+body{
   overflow: scroll;
 }
 
@@ -83,6 +83,7 @@ margin-left: 900px;
 font-size: 20px;
 font-family: didot;
 color: white;
+
 }
 
 #title-gg {
@@ -94,6 +95,7 @@ margin-left: 750px; /* tok minus 150 som er 1/2 av 300 av 300 ekstra px width fr
 font-size: 20px;
 font-family: didot;
 color: white;
+
 }
 
 #first-pic{
@@ -101,7 +103,10 @@ color: white;
   top: 76px;
   right: 0%;
   z-index: -1;
+  /*transition-property: all;*/
 }
+
+
 
 #test{
   position: fixed;
