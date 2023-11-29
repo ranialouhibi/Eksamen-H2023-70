@@ -1,88 +1,114 @@
-body{
-    display: flex;
-    background-color: grey;
-    background-image: url(giphy.gif);
-    background-size: cover;
+body {
     background-attachment: fixed;
-    }
-    .helicopter{
-        position: relative;
-        position: left;
-        float: left;
+    background-color: rgb(176, 43, 43);
+}
     
-    }
         h1 {
-            color: rgba(186, 186, 127, 0.463);
+            color: rgb(227, 192, 192);
             width: 300;
             height: 60;
             display: contents;
             justify-content: center;
             align-items: center;
             transition-property: all;
-            transition-duration: 2s;
-            transition-timing-function: ease-in-out;
             transition-delay: 0ms;
             position: absolute;
-            top:60%;
+            top:70%;
             right:30%;
             left: 30%;
             }
-            
-           /*spa og massage*/
-                p1 {
-                color: white;
+            /*overskrifter*/
+
+             h2, h3, h4 {
+                color: rgb(228, 152, 152);
                 position: relative;
                 float: right;
-                margin-left:65%;
-                width: 60%;
-                bottom: 85%;
+                margin-right: 15%;
+                width: 80%;
+                margin-top: initial;
+
             }
-            h2{
-                color: white;
+
+            /* p er alle tekster*/
+
+            p { color: rgb(71, 67, 67);
                 position: relative;
                 float: right;
-                margin-left: 70%;
-                width: 60%;
-                bottom: 85%;
-            
-            }
+                margin-right: 15%;
+                width: 80%;
+                margin-top: initial; }
+
+             /*bildene*/
+
             .helicopter {
                 position: absolute;
-                float: left;
-                top: 60%;
-                margin-right: 70%;
-                width: 55%;
-                bottom: 85%;
-            }
-            h3, p {
-                position: relative;
                 float: right;
-                margin-left: 70%;
-                width: 65%;
-                bottom: 85%;
+                top: 7%;
+                margin-left: 30%;
+                width: 55%;
+                bottom: 185%;
             }
-            p{
-                color: white;
+            
+            .vann {
+              position: relative;
+              float: left;
+              top: 87%;
+              margin-left: 750px;
+              bottom: 670px;
+              margin-top: initial;
             }
-    
-            h2,h3 {
-                color:white;
-            }
-    
-            vann {
-            position: relative;
-            float: left;
-            bottom: 40%;
-            width: 65%;
-            margin-left: 70%;
-    
-            }
-            .container { 
-                width: 300px;
-                height: 200px;
+
+            /*tekst boksene*/
+
+            .box { 
+                width: 25%;
+                height: 270px;
                 margin: 100px auto;
                 position: relative;
-                left: 30px;
-                top: 20px;
+                right: 470px;
+                bottom: 75px;
+                background-color: white;
+                display: flex;
+                
+
+                .box:hover{
+                    color: aqua;
+                }
+            
     
             } 
+            .box1 {
+                width: 30%;
+                height: 300px;
+                position: relative;
+                left: 60px;
+                top: 95%;
+                bottom: 75px;
+                background-color: white;
+            }
+        
+            
+            .box2 {
+                width: 55%;
+                height: 280px;
+                margin-left: 100px auto;
+                position: relative;
+                left: 2%;
+                bottom: 0%;
+                background-color: white;
+            }
+
+          /*siste tekstboks skriften (ikke rør)*/
+            .h4 {
+
+                width: 22%;
+                height: 200px;
+                position: relative;
+                right: 60px;
+                top: 90%;
+                bottom: 80px;
+            }
+
+            /*animasjoner:*/
+            
+            
