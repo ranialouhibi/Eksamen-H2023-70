@@ -1,20 +1,17 @@
 
 body {
-    margin: 0;
-    background-color: rgba(122, 71, 9, 0.392)
-
+margin: 0;
+background-color: rgba(122, 71, 9, 0.392)
 }
-  
 .index-header {
-  position: fixed;
-  z-index: 999;
-  width: 1500px;
-  height: 9.3vh;
-  background-color: #3c0c0c96;
-  color: #f4eded;
- border-bottom:#461f1fc9 1px solid;
+position: fixed;
+z-index: 999;
+width: 1500px;
+height: 9.3vh;
+background-color: #3c0c0c96;
+color: #f4eded;
+border-bottom:#461f1fc9 1px solid;
 }
-
 .header-content {
 height: 13vh;
 display: flex;
@@ -22,56 +19,37 @@ flex-direction: column-reverse;
 justify-content: space-between;
 align-items:end;
 }
-
-
 #title-txt{
-  position: absolute;
+position: absolute;
 margin-right:1190px;
 margin-bottom: -14px;
 font-family: the seasons light ;
 font-size:x-large;
 font-weight:100;
 }
-/*
-#sub-txt{
-position: absolute;
-margin-right: 80%;
-font-style: italic;
-font-size: small;
-font-family:'Courier New', Courier, monospace;
-opacity: 80%
-}*/
-
 .site-nav ul {
-  display: flex;
-   margin-top: -47px;
-  flex-direction: row;
-  justify-content: end;
-  align-items: start;
-  margin-right: 100px;
- 
+display: flex;
+margin-top: -47px;
+flex-direction: row;
+justify-content: end;
+align-items: start;
+margin-right: 100px; 
 position: relative;
-  list-style: none;
-  gap: 30px;
-
-
+list-style: none;
+gap: 30px;
 }
-
 .site-nav a {
 color: #e5e2e2;
 text-transform: uppercase;
 text-decoration: none;
 }
-
 .site-nav a:hover {
-  color: #f4eded;
-  font-size: large;
-  transition-duration: 200ms;
-  transition-timing-function: ease-in-out;
+color: #f4eded;
+font-size: large;
+transition-duration: 200ms;
+transition-timing-function: ease-in-out;
 }
-
 /* SEKSJON 1 AV KODEN*/
-
 .section-one{
 position: absolute;
 height: 80vh;
@@ -81,25 +59,22 @@ background-image: url(Images/wynntest2.jpeg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
-
 }
-
 #header-txt1 {
-  position: absolute;
-  width: 300px;
+position: absolute;
+width: 300px;
 justify-content: start;
 align-items: center;
 margin-top: 200px;
 font-family: didot;
 margin-left: 900px;
 font-weight: 800;
-
 color: white;
 font-size: 20px;
 }
 #header-txt2 {
-  position: absolute;
-  width: 400px;
+position: absolute;
+width: 400px;
 justify-content: start;
 align-items: center;
 margin-top: 240px;
@@ -108,27 +83,21 @@ font-size: 23px;
 margin-left: 880px;
 font-weight: 880;
 color: white;
-
-
 }
 #header-txt3 {
-  position: absolute;
-  width: 300px;
+position: absolute;
+width: 300px;
 margin-top: 228px;
 font-family: the seasons light ;
 margin-left: 1005px;
 color: rgb(195, 60, 60);
 font-size: 28px;
-
 }
 #header-txt3:hover{
-  text-shadow: 2px 2px 20px #fff9f9;
-  transition-duration: 200ms;
-  transition-timing-function: ease-in-out;
-
+text-shadow: 2px 2px 20px #fff9f9;
+transition-duration: 200ms;
+transition-timing-function: ease-in-out;
 }
-
-
 #book-btn{
 position: absolute;
 top: 350px;
@@ -142,167 +111,149 @@ font-family: didot;
 font-weight: 100;
 color: white;
 cursor: pointer;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
 #book-btn:hover{
-  background-color: rgba(255, 255, 255, 0.405);
-  color: rgb(255, 255, 255);
-  border: solid 1px rgb(255, 248, 248);
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  transition-timing-function: ease-in;
-  transition-duration: 200ms;
+background-color: rgba(255, 255, 255, 0.405);
+color: rgb(255, 255, 255);
+border: solid 1px rgb(255, 248, 248);
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+transition-timing-function: ease-in;
+transition-duration: 200ms;
 }
-
-
 /*SEKSJON TO AV KODEN*/
-
 .section-two {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: start;
-    height: 142vh;
-    z-index: 9999;
-    margin-top: 500px;
-  }
-  
-    #two-pic{
-  border-style: none;
-  border-width: 0px;
-  border-bottom: #dcc586fc 3px solid;
-  border-radius: 10px;
-  }
-
-  #sectionTwo-pic {
-  margin-top: 145px;
-  height: 500px;
-  width: inherit;
-  z-index: -1;
-  object-fit:contain;
-  border-radius: 10px;
-
-  }
-  #sectionTwo-pic2{
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-between;
+align-items: start;
+height: 142vh;
+z-index: 9999;
+margin-top: 500px;
+}
+#two-pic{
+border-style: none;
+border-width: 0px;
+border-bottom: #dcc586fc 3px solid;
+border-radius: 10px;
+}
+#sectionTwo-pic {
+margin-top: 145px;
+height: 500px;
+width: inherit;
+z-index: -1;
+object-fit:contain;
+border-radius: 10px;
+}
+#sectionTwo-pic2{
 position: absolute;
 margin-top: 145px;
 opacity: 0;
 }
-  #sectionTwo-pic2:hover{
- opacity: 1;
- transition-duration: 150ms;
- transform-style: preserve-3d;
- transform-box: fill-box;
-  }
-  #twotxt-header{
-  position: absolute;
-  margin-top: -350px;
-  margin-left: 150px;
-  font-family: didot;
-  font-size: 1.5rem;
-  z-index: 2;
-  color: rgb(255, 250, 250);
-  }
+#sectionTwo-pic2:hover{
+opacity: 1;
+transition-duration: 150ms;
+transform-style: preserve-3d;
+transform-box: fill-box;
+}
+#twotxt-header{
+position: absolute;
+margin-top: -350px;
+margin-left: 150px;
+font-family: didot;
+font-size: 1.5rem;
+z-index: 2;
+color: rgb(255, 250, 250);
+}
+#two-txt {
+position: absolute;
+margin-left: 150px;
+margin-top: -200px;
+width: 400px;
+color: rgb(255, 255, 255);
+font-size: large;
+letter-spacing: .15rem;
+word-spacing: .3rem;
+}
+.txt-container{
+position: absolute;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: rgba(64, 8, 8, 0.884);
+width: 670px;
+height: 770px;
+margin-top: 200px;
+margin-right: 600px;
+border-style: none;
+padding: 10px;
+border-radius: 5px;
+}
+#hr1{
+position: absolute;
+margin-top: -250px;
+margin-left: 80px;
+border-style: solid ;
+border-top: rgb(240, 79, 79);
+border-width: 400px;
+height: 1px;
+color: rgba(255, 255, 255, 0.687);
+border-bottom: rgb(24, 17, 17);   
+}
+#hr2{
+position: absolute;
+margin-top: 235px;
+margin-right: 1190px;
+border-top: rgb(0, 0, 0);
+border-width: 32px;
+height: 1px;
+color: rgb(255, 255, 255);
+border-bottom: rgb(255, 255, 255);
+z-index: 2;
+}
 
-  #two-txt {
-  position: absolute;
-  margin-left: 150px;
-  margin-top: -200px;
-  width: 400px;
-  color: rgb(255, 255, 255);
-  font-size: large;
-  letter-spacing: .15rem;
-  word-spacing: .3rem;
-  }
- 
-  .txt-container{
-  position: absolute;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(64, 8, 8, 0.884);
-  width: 670px;
-  height: 770px;
-  margin-top: 200px;
-  margin-right: 600px;
-  border-style: none;
-  padding: 10px;
-  border-radius: 5px;
-
-  }
-
-
-  #hr1{
-    position: absolute;
-    margin-top: -250px;
-    margin-left: 80px;
-    border-style: solid ;
-    border-top: rgb(240, 79, 79);
-    border-width: 400px;
-    height: 1px;
-    color: rgba(255, 255, 255, 0.687);
-    border-bottom: rgb(24, 17, 17);
-    
-  }
-  #hr2{
-    position: absolute;
-    margin-top: 235px;
-    margin-right: 1190px;
-    border-top: rgb(0, 0, 0);
-    border-width: 32px;
-    height: 1px;
-    color: rgb(255, 255, 255);
-    border-bottom: rgb(255, 255, 255);
-    z-index: 2;
-  
-  }
-
-  #p-date{
-    margin-bottom: 430px;
-    margin-left: 10px;
-    color: white;
-    word-spacing: 80px;
-  }
-
-  /*SEKSJON TRE AV KODEN*/
-
-  .section-three{
+ #p-date{
+margin-bottom: 430px;
+margin-left: 10px;
+color: white;
+word-spacing: 80px;
+}
+/*SEKSJON TRE AV KODEN*/
+.section-three{
 display: flex; 
-flex-wrap: wrap;
+flex-wrap: nowrap;
 justify-content: space-around;
 align-items: center;
-  width: 1450px;
-  height: 100vh;
-  background-color: rgb(76, 18, 18) ;
-  
-  }
-
-  #foodpic{
-    margin-left: 0px;
-    box-shadow: 1px 1px 15px #040000;
-    margin-top: 30px;
-    
-  }
-  #roompic{
-    margin-right: 100px;
-    box-shadow: 1px 1px 15px #040000;
-    margin-top: 30px;
-  }
-  #casinopic{
-    margin-left: 100px;
-    margin-top: 30px;
-    box-shadow: 1px 1px 15px #040000;
-  }
-  #txt-three{
+width: 1450px;
+height: 100vh;
+background-color: rgb(76, 18, 18) ;
+}
+#foodpic{
+box-shadow: 1px 1px 15px #040000;
+margin-top: 30px;    
+}
+#roompic{
+box-shadow: 1px 1px 15px #040000;
+margin-top: 30px;
+}
+#casinopic{
+margin-top: 30px;
+box-shadow: 1px 1px 15px #040000;
+}
+#spapic{
+margin-top: 30px;
+box-shadow: 1px 1px 15px #040000;
+}
+#txt-three{
 color: white;
-  font-size: xx-large;
-  margin-left: 140px;
-  margin-top: -775px;
-  text-decoration:underline;
-  font-family: the seasons light;
-  font-size: 55px;
-  }
+font-size: xx-large;
+margin-left: 140px;
+margin-top: -775px;
+text-decoration:underline;
+font-family: the seasons light;
+font-size: 55px;
+}
 
 
 
