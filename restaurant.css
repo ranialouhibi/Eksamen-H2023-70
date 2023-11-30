@@ -1,18 +1,11 @@
-body{
-  overflow: scroll;
-}
-
 body {
   margin: 0;
   background-color: rgba(122, 71, 9, 0.392)
-
 }
 
 /* bøtta for hele top nav i design */
-
-
 .index-header {
-position: fixed;
+position: relative;
 z-index: 999;
 width: 1500px;
 height: 9.3vh;
@@ -49,11 +42,8 @@ flex-direction: row;
 justify-content: end;
 align-items: start;
 margin-right: 100px;
-
 position: relative;
 gap: 30px;
-
-
 }
 
 /* (inne a inne i site-nav som er inne i index header) */
@@ -72,69 +62,137 @@ transition-timing-function: ease-in-out;
 }
 
 /* SESSION PART 1*/
-
-
 #title-rest {
-position: fixed;
+position: relative;
 width: 300px;
 text-align: center;
-margin-top: 200px;
+margin-top: 175px;
 margin-left: 900px;
 font-size: 20px;
 font-family: didot;
 color: white;
-
 }
 
 #title-gg {
-position: fixed;
+position: absolute;
 width: 600px;
 text-align: center;
-margin-top: 240px;
-margin-left: 750px; /* tok minus 150 som er 1/2 av 300 av 300 ekstra px width fra title-rest til title-gg for å få centrert ene text unner andre */
+top: 30px;
+left: -150px; /* tok minus 150 som er 1/2 av 300 av 300 ekstra px width fra title-rest til title-gg for å få centrert ene text unner andre */
 font-size: 20px;
 font-family: didot;
 color: white;
-
 }
 
+/*
 #first-pic{
-  position: fixed;
-  top: 76px;
-  right: 0%;
-  z-index: -1;
+  background-image: url(Images/rest.first-pic.jpg);
+}*/
   /*transition-property: all;*/
-}
 
 
-
-#test{
-  position: fixed;
-  height: 600px;
+#section-1{
+  position: relative;
+  height: 800px;
   width: 100%;
-  margin-top: 645px;
+  margin-top: 340px;
   background-color: rgba(64, 8, 8, 0.884);
+  border-bottom: black solid 5px;
 }
 
-  #test-2{
+  #container-1{
     position: relative;
-    margin-top: 50px;
+    top: 50px;
     margin-left: 150px;
     margin-right: 150px;
-    height: 500px;
+    height: 700px;
     background-color: rgba(64, 8, 8, 0.884);
     border-radius: 5px;
     border: solid black 5px;
     text-align: center;
   }
       #cooks-title{
+        position: absolute;
+        width: 600px;
+        font-family: didot;
+        color: white;
         padding-top: 75px;
+        font-size: 20px;
+        transition-delay: 200ms;
+        transition-timing-function: ease-in-out;
+        transition-duration: 500ms;
       }
+
+      #cooks-title:hover{
+        font-size: 25px;
+
+      }
+
       #cooks-text{
         position: absolute;
-        padding-top: 25px;
+        width: 400px;
         padding-left: 100px;
         padding-right: 100px;
+        font-family: didot;
+        color: white;
+        padding-top: 140px;
+      
+      }
+      #second-pic{
+        position: absolute;
+        right: 0%;
       }
 
 /*display flex*/
+
+#section-2{
+  position: relative;
+  height: 800px;
+  width: 100%;
+  background-color: rgba(64, 8, 8, 0.884);
+  
+}
+
+  #container-2{
+    position: relative;
+    top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 700px;
+    background-color: rgba(64, 8, 8, 0.884);
+    border-radius: 5px;
+    border: solid black 5px;
+    text-align: center;
+  }
+      #favourites-title{
+        position: absolute;
+        width: 600px;
+        font-family: didot;
+        color: white;
+        padding-top: 75px;
+        font-size: 20px;
+        transition-delay: 200ms;
+        transition-timing-function: ease-in-out;
+        transition-duration: 500ms;
+      }
+
+      #favourites-title:hover{
+        font-size: 25px;
+      }
+
+      #favourites-text{
+        position: absolute;
+        width: 400px;
+        padding-left: 100px;
+        padding-right: 100px;
+        font-family: didot;
+        color: white;
+        padding-top: 140px;
+      
+      }
+      #third-pic{
+        position: absolute;
+        right: 0%;
+        top: 0%;
+      }
+      
