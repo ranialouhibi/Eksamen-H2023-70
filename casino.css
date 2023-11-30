@@ -1,0 +1,312 @@
+/*index start*/
+body {
+    margin: 0;
+}
+
+.index-header {
+    position: fixed;
+    height: 9.5vh;
+    width: 100%;
+    background-color: rgb(50, 12, 12);
+    color: #f4eded;
+   border-bottom:#fffffffc 1px solid;
+   z-index: 4;
+}
+
+.header-content {
+height: 18vh;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items:end;
+}
+
+
+#titleTxt{
+align-self: start;
+justify-content: end;
+margin-left: 30px;
+margin-top: -45px;
+font-family: didot;
+font-size:x-large;
+font-weight:100;
+}
+
+
+.site-nav ul {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    align-self: center;
+    list-style: none;
+    margin-top: -82px;
+    margin-right: 650px;
+    gap: 15px;
+}
+
+.site-nav-element{
+transition: transform 0.5s; 
+}
+.site-nav-element:hover {
+    transform: scale(1.1);
+}
+
+.site-nav a {
+color: #e5e2e2;
+text-transform: uppercase;
+text-decoration: none;
+}
+/*index slutt*/
+
+/*casino page start*/
+
+.casino-page{
+  background: rgb(59, 15, 15);
+}
+
+/*casino section 1 start*/
+.casino-section1{
+    background-color: rgb(59, 15, 15);
+    border-bottom:#dcc586fc 15px solid;
+}
+
+.casino-section1 img{
+    width: 100%;
+}
+
+.casino-header{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:clamp(35px, 4vw, 65px);/*justerer størrelsen på overskriften basert på størrelsen på vinduet, med minimum og maksimum størrelse*/
+    color: #f4eded;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -50%;
+}
+
+.casino-header-line{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+/*casino section 1 end*/
+
+/*casino section 2 start*/
+
+.casino-section2 {
+  display: flex;
+  align-items: center;
+  background-color: rgb(59, 15, 15);
+  border-bottom: #dcc586fc 15px solid;
+}
+
+#redDices { /*kode for posisjoneringen av terningene*/
+  position: absolute;
+  top:27%;
+  left:50%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+  width: 400px;
+}
+
+.casino-goblet-conteiner {
+  display: flex;
+  position: relative;
+}
+
+#casinoGoblet { /*kode for bakgrunnsbildet i seksjon 2*/
+  width: 70%;
+  border-right: #dcc586fc 15px solid;
+}
+
+.section2-text-box { /*kode for tekstboksen i seksjon2*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  max-height: 750px;
+  width: 500px;
+  border-radius: 50px;
+  margin-top: 90px;
+  margin-left: 20px;
+  border: #dcc586fc 3px solid;
+  opacity: 0.9;
+  overflow-y: scroll;
+  z-index: 2;
+}
+
+.section2-text-box h3 {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 10px;
+  border-bottom: #dcc586fc 3px solid;
+}
+
+.section2-text-box p {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+}
+/*section 2 end*/
+
+/*section 3 start*/
+.casino-section3{
+  background: rgb(59, 15, 15);
+  border-bottom: #dcc586fc 15px solid;
+}
+
+.casino-row { /*kode for rekken med kort i seksjon*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /*får kortene til å legge seg oppe på hverandre når vinduet krymper*/
+  justify-content: space-evenly;
+  padding-top:100px;
+  padding-bottom: 100px; 
+}
+
+.casino-row-element{ /*kode for hvordan kortene ser ut og fungerer*/
+  width: 450px;
+  height: 800px;
+  background-color:rgb(46, 46, 46);
+  border-radius: 50px;
+  border: #dcc586fc 3px solid;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2s;
+}
+
+.casino-row-element:hover{ /*hoverfunksjon for kortene*/
+  transform: scale(1.1);
+}
+
+.casino-row-element h3{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10px;
+  color: white;
+  border-bottom: #dcc586fc 1px solid;
+}
+
+.casino-row-element p{
+  text-align: center;
+  font-size: 26px;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.casino-row-image-container img{
+  width: 450px;
+  border-radius: 50px;
+  height: 300px;
+  border-bottom: #dcc586fc 3px solid;
+}
+
+/*Casino section 3 end*/
+
+/*casino section 4 start*/
+
+.casino-section4 {
+  display: flex;
+  flex-direction: row;
+  height: 955px;
+  justify-content: center;
+  align-items: center;
+}
+
+.dollar-right-section {
+  position: absolute;
+  width: 300px;
+  height: 955px;
+  overflow: hidden;
+  right: 0;
+  background-size: contain;
+  z-index: 3;
+}
+
+#dollarRight { /*kode for bevegende dollertegn på høre side*/
+  position: absolute;
+  width: 300px;
+  height: 100%;
+  background-size: contain;
+  background-image: url(Images/casino-dollarsign-min.png);
+  background-repeat: repeat-y;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  animation-name: jallaDollar;
+  animation-direction: reverse;
+}
+
+.dollar-left-section {
+  position: absolute;
+  width: 300px;
+  height: 955px;
+  overflow: hidden;
+  left: 0;
+  z-index: 3;
+}
+
+#dollarLeft{ /*kode for bevegende dollertegn på venstre side*/
+  position: absolute;
+  width: 300px;
+  height: 100%;
+  background-size: contain;
+  background-image: url(Images/casino-dollarsign-min.png);
+  background-repeat: repeat-y;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  animation-name: jallaDollar;
+}
+
+@keyframes jallaDollar {
+0% {
+    background-position-y: 0px;
+}
+100% {
+    background-position-y: 1350px;
+}
+}
+
+.casino-slot-machine{ /*kode for rammen rundt gullrammen og 777*/
+  display: flex;
+  height: 800px;
+  width: 700px;
+  background-color: #222222;
+  align-items: center;
+  justify-content: center;
+  border: #dcc586fc 3px solid;
+}
+
+#casinoGoldFrame{ /*plasseringen av gullrammen*/
+  height: 600px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+}
+
+#spin777{ /*spinnende 777*/
+  position: absolute;
+  width: 270px;
+  height: 120px;
+  animation-name: spin;
+  animation-duration: 60s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  background-image: url(/Images/casino-777-spin-min.png);
+  z-index: 2;
+  background-repeat: repeat-y;
+}
+
+@keyframes spin { 
+  0% {
+    background-position-y: 0;
+  }
+  100% {
+    background-position-y: 30000px;
+  }
+}
