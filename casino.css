@@ -238,7 +238,7 @@ text-decoration: none;
   z-index: 3;
 }
 
-#dollarRight {
+#dollarRight { /*kode for bevegende dollertegn på høre side*/
   position: absolute;
   width: 300px;
   height: 100%;
@@ -251,7 +251,6 @@ text-decoration: none;
   animation-delay: 0s;
   animation-name: jallaDollar;
   animation-direction: reverse;
-  overflow: hidden;
 }
 
 .dollar-left-section {
@@ -263,7 +262,7 @@ text-decoration: none;
   z-index: 3;
 }
 
-#dollarLeft{
+#dollarLeft{ /*kode for bevegende dollertegn på venstre side*/
   position: absolute;
   width: 300px;
   height: 100%;
@@ -275,7 +274,6 @@ text-decoration: none;
   animation-iteration-count: infinite;
   animation-delay: 0s;
   animation-name: jallaDollar;
-  overflow: hidden;
 }
 
 @keyframes jallaDollar {
