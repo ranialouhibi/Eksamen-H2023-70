@@ -91,7 +91,7 @@ text-decoration: none;
     flex-direction: column;
     align-items:center;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size:clamp(35px, 4vw, 65px);
+    font-size:clamp(35px, 4vw, 65px);/*justerer størrelsen på overskriften basert på størrelsen på vinduet, med minimum og maksimum størrelse*/
     color: #f4eded;
     position: absolute;
     left: 50%;
@@ -115,7 +115,7 @@ text-decoration: none;
   border-bottom: #dcc586fc 15px solid;
 }
 
-#redDices {
+#redDices { /*kode for posisjoneringen av terningene*/
   position: absolute;
   top:27%;
   left:50%;
@@ -129,12 +129,12 @@ text-decoration: none;
   position: relative;
 }
 
-#casinoGoblet {
+#casinoGoblet { /*kode for bakgrunnsbildet i seksjon 2*/
   width: 70%;
   border-right: #dcc586fc 15px solid;
 }
 
-.section2-text-box {
+.section2-text-box { /*kode for tekstboksen i seksjon2*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -170,16 +170,16 @@ text-decoration: none;
   border-bottom: #dcc586fc 15px solid;
 }
 
-.casino-row {
+.casino-row { /*kode for rekken med kort i seksjon*/
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: wrap; /*får kortene til å legge seg oppe på hverandre når vinduet krymper*/
   justify-content: space-evenly;
   padding-top:100px;
-  padding-bottom: 100px;
+  padding-bottom: 100px; 
 }
 
-.casino-row-element{
+.casino-row-element{ /*kode for hvordan kortene ser ut og fungerer*/
   width: 450px;
   height: 800px;
   background-color:rgb(46, 46, 46);
@@ -189,7 +189,7 @@ text-decoration: none;
   transition-duration: 0.2s;
 }
 
-.casino-row-element:hover{
+.casino-row-element:hover{ /*hoverfunksjon for kortene*/
   transform: scale(1.1);
 }
 
@@ -285,7 +285,7 @@ text-decoration: none;
 }
 }
 
-.casino-slot-machine{
+.casino-slot-machine{ /*kode for rammen rundt gullrammen og 777*/
   display: flex;
   height: 800px;
   width: 700px;
@@ -295,13 +295,13 @@ text-decoration: none;
   border: #dcc586fc 3px solid;
 }
 
-#casinoGoldFrame{
+#casinoGoldFrame{ /*plasseringen av gullrammen*/
   height: 600px;
   margin-right: 15px;
   margin-bottom: 30px;
 }
 
-#spin777{
+#spin777{ /*spinnende 777*/
   position: absolute;
   width: 270px;
   height: 120px;
