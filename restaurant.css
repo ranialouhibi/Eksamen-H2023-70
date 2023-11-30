@@ -5,14 +5,16 @@ body {
 
 /* bøtta for hele top nav i design */
 .index-header {
-position: relative;
-z-index: 999;
-width: 1500px;
-height: 9.3vh;
-background-color: #3c0c0c96;
-color: #f4eded;
-border-bottom:#461f1fc9 1px solid;
-}
+  position: relative;
+  position: fixed;
+  z-index: 999;
+  width: 1500px;
+  height: 9.3vh;
+  background-color: #3c0c0c96;
+  background-color: #3c0c0c;
+  color: #f4eded;
+  border-bottom:#461f1fc9 1px solid;
+  }
 
 /* (inne i index-header)   */
 .header-content {
@@ -24,6 +26,7 @@ align-items:end;
 }
 
 /* (inne i header-content) */
+
 #title-txt{
 position: absolute;
 margin-right:1190px;
@@ -62,7 +65,13 @@ transition-timing-function: ease-in-out;
 }
 
 /* SESSION PART 1*/
-
+.header-pic{
+  background-image: url(Images/rest.first-pic.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  }
+  
 #title-rest {
 position: relative;
 width: 300px;
