@@ -2,11 +2,11 @@
  
  body {
     background-attachment: fixed;
-    background-color: rgb(189, 189, 173);
+    background-color: rgb(76, 18, 18);
 }
 
 .h1 {
-    color: rgb(181, 121, 141);
+    color: rgb(210, 187, 195);
     width: 300;
     height: 60;
     display: contents;
@@ -25,11 +25,12 @@
              position:absolute;
              width: 80%;
              height: 3px;
-             border-bottom: 2px black;
+             border-bottom: 2px rgb(134, 113, 113);
              margin-top: 5px;
-             background-color: rgb(17, 17, 17);
+             background-color: rgb(176, 145, 145);
              left: 80px;
              bottom: 120px;
+             animation-name:inherit;
             }
 
             h2::after {
@@ -150,14 +151,7 @@
             }
 
             /*animasjoner:*/
-            .box:hover {
-                color: aliceblue;
-                transform: rotate(420deg);
-                box-shadow: inset 0 0 0 5px grey;
-                width: 300px;
-                height: 50px;
-
-            }
+            
 
             .helicopter:hover {
                 color: aliceblue;
@@ -179,19 +173,19 @@
 
             /*for å få overskrift til å lyse*/
             .h1:hover {
-            color: rgb(66, 38, 42);
-            background-color: rgb(101, 70, 75);
-            text-shadow: 1px 1px pink;
+            color: rgb(188, 157, 162);
+            background-color: rgb(222, 158, 169);
+            text-shadow: 1px 1px rgb(190, 179, 179);
             }
           
             .h2:hover {
                 color: rgb(66, 38, 42);
                 background-color: rgb(101, 70, 75);
-                text-shadow: 1px 1px rgb(35, 32, 33);
+                text-shadow: 1px 1px rgb(176, 154, 163);
                 }
 
             .h3:hover {
-             color: rgb(11, 11, 11);
+             color: rgb(88, 84, 84);
              background-color: rgb(139, 68, 68);
              text-shadow: none;
             }
