@@ -65,7 +65,15 @@ transition-timing-function: ease-in-out;
 }
 
 /* SESSION PART 1*/
+
+.header-pic{
+background-image: url(Images/rest.first-pic.jpg);
+background-size: cover;
+background-position: center;
+height: 100vh;
+}
 #title-rest {
+
 position: relative;
 width: 300px;
 text-align: center;
