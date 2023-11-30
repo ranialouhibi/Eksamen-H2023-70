@@ -5,11 +5,11 @@ body {
 
 /* bøtta for hele top nav i design */
 .index-header {
-position: fixed;
+position: relative;
 z-index: 999;
 width: 1500px;
 height: 9.3vh;
-background-color: #3c0c0c;
+background-color: #3c0c0c96;
 color: #f4eded;
 border-bottom:#461f1fc9 1px solid;
 }
@@ -64,7 +64,7 @@ transition-timing-function: ease-in-out;
 /* SESSION PART 1*/
 
 #title-rest {
-position: absolute;
+position: relative;
 width: 300px;
 text-align: center;
 margin-top: 175px;
@@ -105,7 +105,7 @@ color: white;
   position: relative;
   height: 800px;
   width: 100%;
-  margin-top: -10px;
+  margin-top: 340px;
   background-color: rgba(64, 8, 8, 0.884);
   border-bottom: black solid 5px;
 }
