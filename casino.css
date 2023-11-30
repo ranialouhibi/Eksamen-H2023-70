@@ -4,11 +4,14 @@ body {
 }
 
 .index-header {
-    position: sticky;
-    height: 15vh;
+    position: fixed;
+    height: 13vh;
+    width: 100%;
     background-color: #741414;
+    opacity:0.95 ;
     color: #f4eded;
    border-bottom:#dcc586fc 3px solid;
+   z-index: 4;
 }
 
 .header-content {
@@ -47,7 +50,7 @@ opacity: 80%;
     justify-content: end;
     align-items: flex-end;align-self: center;
     list-style: none;
-    margin-top: -165px;
+    margin-top: -180px;
     margin-right: 40px;
     gap: 15px;
 
@@ -88,7 +91,7 @@ text-decoration: none;
     flex-direction: column;
     align-items:center;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size:clamp(35px, 4vw, 65px);       /*Tok inspirasjon fra denne videoen:https://youtu.be/erqRw3E-vn4 */
+    font-size:clamp(35px, 4vw, 65px);
     color: #f4eded;
     position: absolute;
     left: 50%;
@@ -98,11 +101,14 @@ text-decoration: none;
 
 #casinoHeader1{
     margin-bottom: 0;
+    
 }
+
 
 #casinoHeader2{
     margin-top: 0;
 }
+
 /*casino section 1 end*/
 
 /*casino section 2 start*/
@@ -132,7 +138,6 @@ text-decoration: none;
   width: 70%;
   border-right: #dcc586fc 15px solid;
 }
-
 
 .section2-text-box {
   display: flex;
@@ -225,59 +230,102 @@ text-decoration: none;
   display: flex;
   flex-direction: row;
   height: 955px;
+  justify-content: center;
+  align-items: center;
 }
 
 .dollar-right-section {
   position: absolute;
-  width: 400px;
+  width: 300px;
   height: 955px;
   overflow: hidden;
   right: 0;
+  background-size: contain;
 }
 
 #dollarRight {
   position: absolute;
-  top: 0;
-  width: 100%;
+  width: 300px;
   height: 100%;
-  background-image: url(../Eksamen-H2023-70/Images/casino-dollarsign-min2.png);
+  background-size: contain;
+  background-image: url(../Eksamen-H2023-70/Images/casino-dollarsign-min.png);
   background-repeat: repeat-y;
-  animation: 2s linear infinite;
-  z-index: 2;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
   animation-delay: 0s;
-  animation-name: footerBølge;
+  animation-name: jallaDollar;
   animation-direction: reverse;
   overflow: hidden;
 }
 
 .dollar-left-section {
   position: absolute;
-  width: 400px;
-  height: 100%;
+  width: 300px;
+  height: 955px;
   overflow: hidden;
   left: 0;
 }
 
 #dollarLeft{
   position: absolute;
-  top: 0;
-  width: 100%;
+  width: 300px;
   height: 100%;
-  background-image: url(../Eksamen-H2023-70/Images/casino-dollarsign-min2.png);
+  background-size: contain;
+  background-image: url(../Eksamen-H2023-70/Images/casino-dollarsign-min.png);
   background-repeat: repeat-y;
-  animation: 2s linear infinite;
-  z-index: 2;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
   animation-delay: 0s;
-  animation-name: footerBølge;
+  animation-name: jallaDollar;
   overflow: hidden;
 }
 
-@keyframes footerBølge {
+@keyframes jallaDollar {
 0% {
     background-position-y: 0px;
 }
-
 100% {
-    background-position-y: 1600px;
+    background-position-y: 1350px;
 }
 }
+
+.casino-slot-machine{
+  display: flex;
+  height: 800px;
+  width: 700px;
+  background-color: #222222;
+  align-items: center;
+  justify-content: center;
+  border: #dcc586fc 3px solid;
+}
+
+#casinoGoldFrame{
+  height: 600px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+}
+
+#spin777{
+  position: absolute;
+  width: 270px;
+  height: 120px;
+  animation-name: spin;
+  animation-duration: 60s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  background-image: url(../Eksamen-H2023-70/Images/casino-777-spin-min.png);
+  z-index: 3;
+  background-repeat: repeat-y;
+}
+
+@keyframes spin { 
+  0% {
+    background-position-y: 0;
+  }
+  100% {
+    background-position-y: 30000px;
+  }
+}
+
