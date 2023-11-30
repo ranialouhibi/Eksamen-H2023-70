@@ -1,30 +1,32 @@
-
+/*CSS kodet av Rania*/
 body {
 margin: 0;
-background-color: rgba(122, 71, 9, 0.392)
+background-color: rgb(0, 0, 0)
 }
 .index-header {
 position: fixed;
 z-index: 999;
 width: 1500px;
 height: 9.3vh;
-background-color: #3c0c0c96;
+background-color: rgb(59, 15, 15);
 color: #f4eded;
-border-bottom:#461f1fc9 1px solid;
+border-bottom:#ffffffc9 1px solid;
 }
 .header-content {
 height: 13vh;
 display: flex;
+flex-wrap: nowrap;
 flex-direction: column-reverse;
 justify-content: space-between;
 align-items:end;
 }
 #title-txt{
 position: absolute;
-margin-right:1190px;
-margin-bottom: -14px;
+margin-right:1140px;
+margin-bottom: -20px;
+width: 600px;
 font-family: the seasons light ;
-font-size:x-large;
+font-size:29px;
 font-weight:100;
 }
 .site-nav ul {
@@ -33,7 +35,7 @@ margin-top: -47px;
 flex-direction: row;
 justify-content: end;
 align-items: start;
-margin-right: 100px; 
+margin-right: 690px; 
 position: relative;
 list-style: none;
 gap: 30px;
@@ -92,26 +94,32 @@ font-family: the seasons light ;
 margin-left: 1005px;
 color: rgb(195, 60, 60);
 font-size: 28px;
+transition: text-shadow 0.5s ease-in-out;
 }
 #header-txt3:hover{
 text-shadow: 2px 2px 20px #fff9f9;
-transition-duration: 200ms;
-transition-timing-function: ease-in-out;
+
 }
 #book-btn{
 position: absolute;
-top: 350px;
-right: 350px;
+top: 20px;
+right: 100px;
 border: solid 1px rgb(255, 248, 248);
 border-radius: 5px;
 background: none;
-padding: 5px;
+border-style: none;
+text-align: center;
+height: 40px;
+width: 120px;
 font-size: 18px;
 font-family: didot;
 font-weight: 100;
 color: white;
 cursor: pointer;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+box-shadow: 0 0 10px rgba(255, 255, 255, 0.937);
+transition: shadow 150ms ease-in-out;
+
 }
 #book-btn:hover{
 background-color: rgba(255, 255, 255, 0.405);
@@ -119,9 +127,9 @@ color: rgb(255, 255, 255);
 border: solid 1px rgb(255, 248, 248);
 border-radius: 5px;
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-transition-timing-function: ease-in;
-transition-duration: 200ms;
 }
+
+
 /*SEKSJON TO AV KODEN*/
 .section-two {
 display: flex;
@@ -150,17 +158,16 @@ border-radius: 10px;
 position: absolute;
 margin-top: 145px;
 opacity: 0;
+transition: opacity 250ms ease-in-out;
 }
 #sectionTwo-pic2:hover{
 opacity: 1;
-transition-duration: 150ms;
-transform-style: preserve-3d;
-transform-box: fill-box;
+
 }
 #twotxt-header{
 position: absolute;
 margin-top: -350px;
-margin-left: 150px;
+margin-left: 80px;
 font-family: didot;
 font-size: 1.5rem;
 z-index: 2;
@@ -168,7 +175,7 @@ color: rgb(255, 250, 250);
 }
 #two-txt {
 position: absolute;
-margin-left: 150px;
+margin-left: 80px;
 margin-top: -200px;
 width: 400px;
 color: rgb(255, 255, 255);
@@ -181,14 +188,14 @@ position: absolute;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-background-color: rgba(64, 8, 8, 0.884);
-width: 670px;
-height: 770px;
-margin-top: 200px;
-margin-right: 600px;
+background-color: rgb(59, 15, 15);
+width: 600px;
+height: 730px;
+margin-top: 180px;
+margin-right: 650px;
 border-style: none;
 padding: 10px;
-border-radius: 5px;
+border-radius: 4px;
 }
 #hr1{
 position: absolute;
@@ -196,7 +203,7 @@ margin-top: -250px;
 margin-left: 80px;
 border-style: solid ;
 border-top: rgb(240, 79, 79);
-border-width: 400px;
+border-width: 275px;
 height: 1px;
 color: rgba(255, 255, 255, 0.687);
 border-bottom: rgb(24, 17, 17);   
@@ -227,6 +234,7 @@ justify-content: space-around;
 align-items: center;
 width: 1450px;
 height: 100vh;
+border-top: white 1px solid;
 background-color: rgb(76, 18, 18) ;
 }
 #foodpic{
@@ -248,9 +256,8 @@ box-shadow: 1px 1px 15px #040000;
 #txt-three{
 color: white;
 font-size: xx-large;
-margin-left: 140px;
+margin-left: 40px;
 margin-top: -775px;
-text-decoration:underline;
 font-family: the seasons light;
 font-size: 55px;
 }
