@@ -48,12 +48,12 @@ opacity: 80%;
 .site-nav ul {
     display: flex;
     justify-content: end;
-    align-items: flex-end;align-self: center;
+    align-items: flex-end;
+    align-self: center;
     list-style: none;
     margin-top: -180px;
     margin-right: 40px;
     gap: 15px;
-
 }
 
 .site-nav-element{
@@ -99,13 +99,8 @@ text-decoration: none;
     margin-top: -50%;
 }
 
-#casinoHeader1{
+.casino-header-line{
     margin-bottom: 0;
-    
-}
-
-
-#casinoHeader2{
     margin-top: 0;
 }
 
@@ -185,8 +180,7 @@ text-decoration: none;
 }
 
 .casino-row-element{
-  max-width: 450px;
-  min-width: 400px;
+  width: 450px;
   height: 800px;
   background-color:rgb(46, 46, 46);
   border-radius: 50px;
@@ -216,7 +210,7 @@ text-decoration: none;
 }
 
 .casino-row-image-container img{
-  max-width: 450px;
+  width: 450px;
   border-radius: 50px;
   height: 300px;
   border-bottom: #dcc586fc 3px solid;
@@ -241,6 +235,7 @@ text-decoration: none;
   overflow: hidden;
   right: 0;
   background-size: contain;
+  z-index: 3;
 }
 
 #dollarRight {
@@ -265,6 +260,7 @@ text-decoration: none;
   height: 955px;
   overflow: hidden;
   left: 0;
+  z-index: 3;
 }
 
 #dollarLeft{
@@ -316,7 +312,7 @@ text-decoration: none;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
   background-image: url(../Eksamen-H2023-70/Images/casino-777-spin-min.png);
-  z-index: 3;
+  z-index: 2;
   background-repeat: repeat-y;
 }
 
