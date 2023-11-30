@@ -7,7 +7,7 @@ body {
     position: fixed;
     height: 13vh;
     width: 100%;
-    background-color: #741414;
+    background-color: rgb(59, 15, 15);
     opacity:0.95 ;
     color: #f4eded;
    border-bottom:#dcc586fc 3px solid;
@@ -73,12 +73,12 @@ text-decoration: none;
 /*casino page start*/
 
 .casino-page{
-  background: #741414;
+  background: rgb(59, 15, 15);
 }
 
 /*casino section 1 start*/
 .casino-section1{
-    background-color: #741414;
+    background-color: rgb(59, 15, 15);
     border-bottom:#dcc586fc 15px solid;
 }
 
@@ -111,7 +111,7 @@ text-decoration: none;
 .casino-section2 {
   display: flex;
   align-items: center;
-  background-color: #741414;
+  background-color: rgb(59, 15, 15);
   border-bottom: #dcc586fc 15px solid;
 }
 
@@ -166,7 +166,7 @@ text-decoration: none;
 
 /*section 3 start*/
 .casino-section3{
-  background: #741414;
+  background: rgb(59, 15, 15);
   border-bottom: #dcc586fc 15px solid;
 }
 
@@ -243,7 +243,7 @@ text-decoration: none;
   width: 300px;
   height: 100%;
   background-size: contain;
-  background-image: url(Images/casino-dollarsign-min.png);
+  background-image: url(/Images/casino-dollarsign-min2.png);
   background-repeat: repeat-y;
   animation-duration: 2s;
   animation-timing-function: linear;
@@ -268,7 +268,7 @@ text-decoration: none;
   width: 300px;
   height: 100%;
   background-size: contain;
-  background-image: url(Images/casino-dollarsign-min.png);
+  background-image: url(/Images/casino-dollarsign-min2.png);
   background-repeat: repeat-y;
   animation-duration: 2s;
   animation-timing-function: linear;
@@ -311,7 +311,7 @@ text-decoration: none;
   animation-duration: 60s;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
-  background-image: url(Images/casino-777-spin-min.png);
+  background-image: url(/Images/casino-777-spin-min.png);
   z-index: 2;
   background-repeat: repeat-y;
 }
