@@ -67,6 +67,26 @@ animation-timing-function: ease-in-out;
 animation-fill-mode: forwards;
 animation-fill-mode: backwards;
 }
+#fadeinpic{
+    position: absolute;
+    height: 80vh;
+    margin-bottom: 100px;
+    opacity: 0;
+    animation: fadeheader 15s ease-in-out 5s infinite backwards;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeheader {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity:1;
+    }
+    100%{
+        opacity: 0;
+    }
+    
+}
 #header-txt1 {
 position: absolute;
 width: 300px;
@@ -78,6 +98,7 @@ margin-left: 900px;
 font-weight: 800;
 color: white;
 font-size: 20px;
+z-index: 999;
 }
 #header-txt2 {
 position: absolute;
@@ -90,6 +111,7 @@ font-size: 23px;
 margin-left: 880px;
 font-weight: 880;
 color: white;
+z-index: 999;
 }
 #header-txt3 {
 position: absolute;
@@ -100,6 +122,7 @@ margin-left: 1005px;
 color: rgb(195, 60, 60);
 font-size: 28px;
 transition: text-shadow 0.5s ease-in-out;
+z-index: 999;
 }
 #header-txt3:hover{
 text-shadow: 2px 2px 20px #fff9f9;
@@ -223,7 +246,7 @@ border-radius: 4px;
 #hr1{
 position: absolute;
 margin-top: -250px;
-margin-left: 80px;
+margin-left: 30px;
 border-style: solid ;
 border-top: rgb(240, 79, 79);
 border-width: 275px;
@@ -233,8 +256,8 @@ border-bottom: rgb(24, 17, 17);
 }
 #hr2{
 position: absolute;
-margin-top: 235px;
-margin-right: 1190px;
+margin-top: 215px;
+margin-right: 1160px;
 border-top: rgb(0, 0, 0);
 border-width: 32px;
 height: 1px;
@@ -272,7 +295,7 @@ margin-top: 30px;
 margin-top: 30px;
 box-shadow: 1px 1px 15px #040000;
 }
-#spapic{
+#weddingpic{
 margin-top: 30px;
 box-shadow: 1px 1px 15px #040000;
 }
@@ -284,6 +307,17 @@ margin-top: -775px;
 font-family: the seasons light;
 font-size: 55px;
 }
+#txt-three ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 550px;
+list-style: none;
+    text-transform: uppercase;
+    gap: 130px;
+    margin-right: 70px;
+    font-size: 30px;
 
 
 
