@@ -1,7 +1,9 @@
 
 body {
 margin: 0;
-background-color: rgba(122, 71, 9, 0.392)
+background-color: rgba(122, 71, 9, 0.392);
+
+
 }
 .index-header {
 position: fixed;
@@ -39,12 +41,12 @@ list-style: none;
 gap: 30px;
 }
 .site-nav a {
-color: #e5e2e2;
+color: rgb(229, 226, 226);
 text-transform: uppercase;
 text-decoration: none;
 }
 .site-nav a:hover {
-color: #f4eded;
+color: rgb(244, 237, 237);
 font-size: large;
 transition-duration: 200ms;
 transition-timing-function: ease-in-out;
@@ -94,7 +96,7 @@ color: rgb(195, 60, 60);
 font-size: 28px;
 }
 #header-txt3:hover{
-text-shadow: 2px 2px 20px #fff9f9;
+text-shadow: 2px 2px 20px rgb(255, 249, 249);
 transition-duration: 200ms;
 transition-timing-function: ease-in-out;
 }
@@ -135,7 +137,7 @@ margin-top: 500px;
 #two-pic{
 border-style: none;
 border-width: 0px;
-border-bottom: #dcc586fc 3px solid;
+border-bottom: rgba(220, 197, 134, 0.988) 3px solid;
 border-radius: 10px;
 }
 #sectionTwo-pic {
