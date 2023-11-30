@@ -61,6 +61,11 @@ background-image: url(Images/wynntest2.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
+animation-name: fadein;
+animation-duration: 1.5s;
+animation-timing-function: ease-in-out;
+animation-fill-mode: forwards;
+animation-fill-mode: backwards;
 }
 #header-txt1 {
 position: absolute;
@@ -139,6 +144,13 @@ align-items: start;
 height: 142vh;
 z-index: 9999;
 margin-top: 500px;
+animation-name: fadein;
+animation-duration: 2s;
+animation-timing-function: ease-in-out;
+animation-delay: 1.5s;
+animation-fill-mode: forwards;
+animation-fill-mode: backwards;
+
 }
 #two-pic{
 border-style: none;
@@ -153,7 +165,18 @@ width: inherit;
 z-index: -1;
 object-fit:contain;
 border-radius: 10px;
+
 }
+@keyframes fadein {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+
 #sectionTwo-pic2{
 position: absolute;
 margin-top: 145px;
